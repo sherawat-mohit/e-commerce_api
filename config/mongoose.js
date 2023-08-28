@@ -4,7 +4,7 @@ mongoose.set('strictQuery', true);
 
 // connecting mongoose to its default server and Ecommerce Database
 mongoose.connect('mongodb+srv://devsherawatmohit:mohit952899@ecommerce.ajnvtyg.mongodb.net/?retryWrites=true&w=majority', {
-    useNewUrlParser: true // to avoid the DeprecationWarning
+    useNewUrlParser: true // to avoid the "DeprecationWarning"
 });
 
 

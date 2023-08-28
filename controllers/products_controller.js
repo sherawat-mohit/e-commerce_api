@@ -5,7 +5,7 @@ const Product = require('../models/product');
 module.exports.products = function(req, res){
     Product.find({}, function(err, foundProducts){
         if(err){
-            res.send(err);     //product not found
+            res.send(err);     // product not found
         }else{
             res.send(foundProducts);    // product found
         }
@@ -45,7 +45,7 @@ module.exports.delete = function(req, res){
         });
 }
 
-// function to update a product's quantity
+// function to update product quantity
 module.exports.updateQuantity = function(req, res){
     const ID = req.params.productID;
     // find the product using id

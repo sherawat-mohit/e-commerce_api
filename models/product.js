@@ -1,7 +1,7 @@
 // importing required packages
 const mongoose = require('mongoose');
 
-// creating the product schema
+// creating product schema
 const productSchema = new mongoose.Schema({
     name: String,
     quantity: Number

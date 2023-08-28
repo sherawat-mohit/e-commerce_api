@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const db = require('./config/mongoose');
 const port = 8000;
 
-// initializing expressjs
+// initializing express.js
 const app = express();
 
 // using express inbuilt body-parser to parse over the request body
