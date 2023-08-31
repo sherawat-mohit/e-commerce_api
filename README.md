@@ -17,7 +17,7 @@
 ### STEPS TO CREATE A NEW PRODUCT: 
 1. Start the server using `node index.js`
 2. Open **postman**
-3. put [localhost:8000/products/create] as the url
+3. Put [localhost:8000/products/create](localhost) as the URL
 4. Select **Body** tab below the url textarea and then select **x-www-form-urlencoded**
 5. Add name & quantity as the keys and set the desired values for the keys
 6. Make a **POST request**
@@ -38,7 +38,7 @@
 2. Copy the **id** of the product whose quantity you want to update
 3. Open **postman**
 4. Put the id after [localhost:8000/products/](localhost)
-5. After putting the id add **/update_quantity/?number={x}** in the url where `x` is the *number by which you want to increase or decrease the quantity*
+5. After putting the id add **/update_quantity/?number={x}** in the url where `x` is the *new quantity of the product*
 6. The url should be looking like **localhost:8000/products/{id}/update_quantity/?number={x}** where `id` is *id of product* and `x` is *number by which you want to increase or decrease the quantity*
 7. Make a **POST request** and you should get a message saying **updated successfully**
 
