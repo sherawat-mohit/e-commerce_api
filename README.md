@@ -39,7 +39,7 @@
 3. Open **postman**
 4. Put the id after [localhost:8000/products/](localhost)
 5. After putting the id add **/update_quantity/?number={x}** in the url where `x` is the *new quantity of the product*
-6. The url should be looking like **localhost:8000/products/{id}/update_quantity/?number={x}** where `id` is *id of product* and `x` is *number by which you want to increase or decrease the quantity*
+6. The url should be looking like **localhost:8000/products/{id}/update_quantity/?number={x}** where `id` is *id of product* and `x` is *new quantity of the product*
 7. Make a **POST request** and you should get a message saying **updated successfully**
 
 
