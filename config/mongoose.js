@@ -1,5 +1,6 @@
 // importing required packages
 const mongoose = require('mongoose');
+
 mongoose.set('strictQuery', true);
 
 // connecting mongoose to its default server and Ecommerce Database

@@ -16,7 +16,7 @@ router.post('/create', productsController.create);
 // deleting a product using it's ID
 router.delete('/:productID', productsController.delete);
 
-// to update the quantity of a product
+// updating the quantity of a product
 router.post('/:productID/update_quantity/', productsController.updateQuantity);
 
 

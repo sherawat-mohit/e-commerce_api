@@ -1,7 +1,5 @@
 # E-Commerce API
 
-
-## ABOUT
 * This is an E-commerce API created using Node.js and MongoDB
 * It is used to store **name** and **quantity** of the products
 * We can perform requests in this API like
@@ -9,6 +7,21 @@
     2. Updating the quantity of the products
     3. Deleting the product
 
+## INSTALLATION
+
+To run this application on your local machine, please follow these steps:
+
+Clone this repository using the following command:
+https://github.com/ayush2342/Habit-Tracker.git
+
+Install the required dependencies using the following command:
+$ npm install 
+
+Start the application using the following command:
+$ npm run start 
+
+Open the application in your web browser by visiting the following URL:
+$ http://localhost:3000 
 
 ## STEPS TO USE THE API:
 1. run `npm init` command on terminal in the project directory to download required packages

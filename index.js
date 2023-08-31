@@ -7,7 +7,7 @@ const port = 8000;
 // initializing express.js
 const app = express();
 
-// using express inbuilt body-parser to parse over the request body
+// using express inbuilt body-parser
 app.use(bodyParser.urlencoded({extended: true}));
 
 // using routes

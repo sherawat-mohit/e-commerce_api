@@ -48,7 +48,7 @@ module.exports.delete = function(req, res){
 // function to update product quantity
 module.exports.updateQuantity = function(req, res){
     const ID = req.params.productID;
-    // find the product using id
+    // find the product using "id"
     Product.findById(ID, function(err, found){
         if(err){
             res.send(err);  // Error product not found
