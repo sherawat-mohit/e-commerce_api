@@ -13,7 +13,7 @@ router.get('/', productsController.products);
 // creating a product
 router.post('/create', productsController.create);
 
-// deleting a product using it's ID
+// deleting a product using it's "ID"
 router.delete('/:productID', productsController.delete);
 
 // updating the quantity of a product

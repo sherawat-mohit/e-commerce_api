@@ -7,13 +7,13 @@ const port = 8000;
 // initializing express.js
 const app = express();
 
-// using express inbuilt body-parser
+// using express inbuilt body-parser to parse over the request body
 app.use(bodyParser.urlencoded({extended: true}));
 
 // using routes
 app.use('/products', require('./routes/products'));
 
-// starting the server
+// start listening to the server
 app.listen(port, function(){
     console.log('API is live and running on port : ',port);
 });
